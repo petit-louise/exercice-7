@@ -1,0 +1,62 @@
+﻿# INSTRUCTIONS
+
+Découverte du SVG et des transitions CSS
+
+
+
+## HTML
+
+- Utilisation d'images en SVG
+
+
+
+## CSS
+
+- Utilisation des transitions et transformations en CSS
+
+- Fond rouge et texte blanc quand on sélectionne du texte.
+
+
+- Largeur limité à 1100px maximum. Attention, la première section du main (image de fond avec le pont) et le footer ne sont pas concernés
+
+- Police utilisé : "Bree Serif"
+
+
+- Taille de police :
+
+    texte: 18px
+
+    nav : 20px
+
+    John Doe et h1 : 40px
+
+    h3 des compétences : 30px
+
+    h4 : 15px
+    icone : 25px
+    
+input et textarea : 16px
+
+
+
+## TRANSITIONS
+
+- logo :
+
+    - Quant on passe sur le logo ou sur John Doe --> effet zoom de 1.3 sur le losange uniquement sur le desktop
+
+    - Quant on passe sur le logo, John Doe passe en rose
+    - Quant on passe sur John Doe, le texte passe en rose
+
+
+
+- nav :
+
+    - texte et icones passent en rose au survol de la souris
+    - texte et icones descendent de 10px au survol de la souris
+    - lien en savoir plus : background rose, texte et icône blancs au survol de la souris
+
+
+## BONUS
+
+- Faire un effet "yoyo" avec une animation keyframes en CSS sur les 3 petites icones de "On discute / On tente / On code", au survol de la souris. Si on reste sur l'icône, l'effet yoyo se répète indéfiniment.
